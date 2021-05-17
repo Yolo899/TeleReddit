@@ -85,3 +85,4 @@ while True:
     except Exception as e:
         log.exception("Error fetching new submissions, restarting in 10 secs")
         sleep(10)
+pip freeze > requirements.txt 
